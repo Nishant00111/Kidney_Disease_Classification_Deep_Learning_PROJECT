@@ -1008,3 +1008,11 @@ OSError: No file or directory found at artifacts	raining\model.h5
 [2024-09-01 22:46:01,593: INFO: _internal: 127.0.0.1 - - [01/Sep/2024 22:46:01] "POST /predict HTTP/1.1" 200 -]
 [2024-09-01 22:46:46,947: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001FA988C7940> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
 [2024-09-01 22:46:46,956: INFO: _internal: 127.0.0.1 - - [01/Sep/2024 22:46:46] "POST /predict HTTP/1.1" 200 -]
+[2024-09-01 22:47:16,095: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.196.170:8080]
+[2024-09-01 22:47:16,095: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-09-01 22:47:16,799: INFO: _internal: 127.0.0.1 - - [01/Sep/2024 22:47:16] "GET / HTTP/1.1" 200 -]
+[2024-09-01 22:47:36,163: INFO: _internal: 127.0.0.1 - - [01/Sep/2024 22:47:36] "POST /predict HTTP/1.1" 200 -]
+[2024-09-01 22:48:05,762: INFO: _internal: 127.0.0.1 - - [01/Sep/2024 22:48:05] "POST /predict HTTP/1.1" 200 -]
